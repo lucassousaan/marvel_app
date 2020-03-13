@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/characters">
+
+    <fragment
+        android:id="@+id/characters"
+        android:name="com.lucassousa.heroes.view.fragments.CharactersFragment"
+        tools:layout="@layout/fragment_characters"
+        android:label="Characters"
+        />
+
+    <fragment
+        android:id="@+id/comics"
+        android:name="com.lucassousa.heroes.view.fragments.ComicsFragment"
+        tools:layout="@layout/fragment_comics"
+        android:label="Comics"
+        />
+
+    <fragment
+        android:id="@+id/creators"
+        android:name="com.lucassousa.heroes.view.fragments.CreatorsFragment"
+        tools:layout="@layout/fragment_creators"
+        android:label="Creators"
+        />
+
+    <fragment
+        android:id="@+id/favorites"
+        android:name="com.lucassousa.heroes.view.fragments.FavoritesFragment"
+        tools:layout="@layout/fragment_favorites"
+        android:label="Favorites"
+        />
+</navigation>

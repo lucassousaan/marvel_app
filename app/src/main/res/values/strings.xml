@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Heroes</string>
+    <string name="characters">Characters</string>
+    <string name="comics">Comics</string>
+    <string name="creators">Creators</string>
+    <string name="favorites">Favorites</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="comic_cover">Comic cover</string>
+    <string name="cannot_find_creator">Cannot find creator</string>
+</resources>

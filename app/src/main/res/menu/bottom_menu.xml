@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/characters"
+        android:icon="@drawable/ic_heroes"
+        android:id="@+id/characters"
+        />
+    <item
+        android:title="@string/comics"
+        android:icon="@drawable/ic_comics"
+        android:id="@+id/comics"
+        />
+    <item
+        android:title="@string/creators"
+        android:icon="@drawable/ic_creators"
+        android:id="@+id/creators"
+        />
+    <item
+        android:title="@string/favorites"
+        android:icon="@drawable/ic_star"
+        android:id="@+id/favorites"
+        />
+</menu>
