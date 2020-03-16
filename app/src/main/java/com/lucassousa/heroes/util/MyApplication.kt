@@ -14,7 +14,6 @@ class MyApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-//        initializeKoin()
         appContext = applicationContext
         database = Room.databaseBuilder(this, HeroesDatabase::class.java, "heroes_database")
             .allowMainThreadQueries().build()
@@ -26,11 +25,4 @@ class MyApplication : Application() {
             private set
     }
 
-    private fun initializeKoin() {
-        startKoin {
-            androidLogger()
-            androidContext(this@MyApplication)
-            modules(listHeroesModule)
-        }
-    }
 }
