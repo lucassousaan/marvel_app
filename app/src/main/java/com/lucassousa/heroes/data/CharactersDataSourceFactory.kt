@@ -1,6 +1,5 @@
 package com.lucassousa.heroes.data
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.DataSource
 import androidx.paging.PageKeyedDataSource

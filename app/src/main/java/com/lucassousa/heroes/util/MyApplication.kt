@@ -4,11 +4,6 @@ import android.app.Application
 import android.content.Context
 import androidx.room.Room
 import com.lucassousa.heroes.data.HeroesDatabase
-import com.lucassousa.heroes.di.heroesModule
-import com.lucassousa.heroes.di.listHeroesModule
-import org.koin.android.ext.koin.androidContext
-import org.koin.android.ext.koin.androidLogger
-import org.koin.core.context.startKoin
 
 class MyApplication : Application() {
 

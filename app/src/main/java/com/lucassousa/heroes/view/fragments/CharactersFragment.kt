@@ -1,7 +1,6 @@
 package com.lucassousa.heroes.view.fragments
 
 import android.os.Bundle
-import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,10 +10,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.lucassousa.heroes.R
-import com.lucassousa.heroes.view.activities.MainActivity
 import com.lucassousa.heroes.view.adapters.CharactersPageAdapter
 import com.lucassousa.heroes.viewmodel.CharacterViewModel
-import com.lucassousa.heroes.viewmodel.MarvelViewModel
 import kotlinx.android.synthetic.main.fragment_characters.view.*
 
 class CharactersFragment : Fragment() {

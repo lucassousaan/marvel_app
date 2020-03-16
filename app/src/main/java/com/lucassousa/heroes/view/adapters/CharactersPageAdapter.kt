@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityOptionsCompat
@@ -17,12 +16,10 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import coil.api.load
 import com.google.android.material.card.MaterialCardView
-import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.lucassousa.heroes.R
 import com.lucassousa.heroes.model.ResultsCharactersModel
 import com.lucassousa.heroes.view.activities.CharacterActivity
-import com.lucassousa.heroes.view.activities.MainActivity
 
 class CharactersPageAdapter internal constructor(
     private val context: Context,
